@@ -61,8 +61,6 @@ Route::group(['middleware' => 'auth'], function () {
 Route::resource('client', ClientController::class)->only('store');
 Route::resource('doctors', DoctorController::class)->only('show');
 
-
-
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::get('get_file',[FileUploadService::class,'get_file'])->name('get_file');
