@@ -59,7 +59,7 @@ class DoctorController extends Controller
             'name' => 'required|string|min:2|max:200',
             'middlename' => 'required|string|min:2|max:200',
             'surname' => 'required|string|min:2|max:200',
-            'job_title' => 'required|string|min:2|max:500',
+            'job_title' => 'nullable',
             'avatar' => 'nullable|image',
             'education.*' => 'nullable',
             'training.*' => 'nullable',

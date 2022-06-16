@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('name');
             $table->string('middlename')->nullable();
             $table->string('surname');
-            $table->string('job_title');
+            $table->string('job_title')->nullable();
             $table->string('avatar')->nullable();
             $table->tinyInteger('status')->default(1);
             $table->timestamps();
