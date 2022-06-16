@@ -67,6 +67,4 @@ class DefaultController extends Controller
         dd($cmd);
         
     }
-
-    
 }
