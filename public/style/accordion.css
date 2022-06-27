@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cotainer {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.text_accord{
+    padding: 50px 0;
+}
+
+.text_accord p{
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #8b8b8b;
+}
+
+
+
+.accordion_item{
+   
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #4b4b4b;
+}
+
+.accordion_titl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: #fff;
+}
+
+
+
+.accordion_answer{
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.5s ease max-height;
+    background-color: #fff;
+}
+
+/* ------------------ */
+
+
+
+
+
+.work {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #777272;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.price table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.price table th,
+.price table td {
+  border: 1px solid #000;
+  text-align: left;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #323232 ;
+}
+
+.price table td {
+  text-align: right;
+} 
+
+
+
+@media (max-width:991px) {
+  .price table th,
+.price table td{
+  font-size: 14px;
+}
+
+.accordion_titl{
+  font-size: 20px;
+}
+
+.work h1{
+  font-size: 16px;
+}
+}
