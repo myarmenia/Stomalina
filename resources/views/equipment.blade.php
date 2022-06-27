@@ -5,7 +5,7 @@
 @endsection
 @section('content')
 <div class="container">
-    <h1 class="title_003" style="margin-top:50px">Оснащениие</h1>
+    <h1 class="title_003" style="margin-top:50px">Оснащение</h1>
     <div class="tools">
         <div class="tools_box">
             <div class="tools_img">
@@ -82,7 +82,7 @@
 клиники.</p>
             </div>
             <div class="tools_img">
-              <img src="{{ asset('images/sirona intego.jpg') }}" >
+              <img src="{{ asset('images/photo1655886044.jpeg') }}" >
           </div>
         </div>
 

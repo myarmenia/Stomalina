@@ -62,20 +62,20 @@
             <a href="{{route('documents')}}" class="nav_link">Документы</a>
           </li>
           <li class="nav_item">
-            <a href="{{route('equipment')}}" class="nav_link">Оснащениие</a>
+            <a href="{{route('equipment')}}" class="nav_link">Оснащение</a>
           </li>
           <li class="nav_item">
             <a href="{{route('treaty')}}" class="nav_link">Услуги</a>
           </li>
           <li class="nav_item">
-            <a href="#" class="nav_link">Команда</a>
+            <a href="/#contacts_id" class="nav_link">Команда</a>
           </li>
           <li class="nav_item">
-            <a href="#" class="nav_link">Контакты</a>
+            <a href="#contact_id" class="nav_link">Контакты</a>
           </li>
-          <li class="nav_item">
-            <a href="#" class="nav_link">Портфолио </a>
-          </li>
+          <!--<li class="nav_item">-->
+          <!--  <a href="#" class="nav_link">Портфолио </a>-->
+          <!--</li>-->
             <li class="nav_item" >
             <a href="https://telegram.me/stomalina1">
                 <img src="{{asset('images/Vector.png')}}" >
@@ -85,11 +85,11 @@
       
         <div class="nav__item02">
              <div class="icon">
-            <img src="{{asset('images/phone.svg')}}"  onclick="window.open('tel:+79852983147');">
+            <img src="{{asset('images/photo1655890841.jpeg')}}"  onclick="window.open('tel:+74954199511');">
             
             
               <a href="https://maps.google.com/maps?q=Pervomayskaya Street, 58Бс1">
-              <img src="{{asset('images/map.svg')}}" >
+              <img src="{{asset('images/photo1655890845.jpeg')}}" >
             </a>
             
             
@@ -109,106 +109,106 @@
       </nav>
       <!-- slider------------------------- -->
 
-      <div class="slider">
-        <div class="slide active">
-          <img src="{{ asset('images/photo3.png') }}" />
-          <div class="info">
-            <p>Принимаем детей и взрослых</p>
-            <p>Лечение под наркозом и седацией</p>
-            <p>Лечение под микроскопом</p>
-            <button class="btn"><a href="{{route('equipment')}}">Оснащениие</a></button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="{{ asset('images/photo2.png') }}" />
-          <div class="info">
-            <p>Принимаем детей и взрослых</p>
-            <p>Лечение под наркозом и седацией</p>
-            <p>Лечение под микроскопом</p>
-            <button class="btn"><a href="{{route('equipment')}}">Оснащениие</a></button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="{{ asset('images/photo1.png') }}" />
-          <div class="info">
-            <p>Принимаем детей и взрослых</p>
-            <p>Лечение под наркозом и седацией</p>
-            <p>Лечение под микроскопом</p>
-            <button class="btn"><a href="{{route('equipment')}}">Оснащениие</a></button>
-          </div>
-        </div>
-        <div class="slide">
-          <img src="{{ asset('images/photo4.png') }}" />
-          <div class="info">
-            <p>Принимаем детей и взрослых</p>
-            <p>Лечение под наркозом и седацией</p>
-            <p>Лечение под микроскопом</p>
-            <button class="btn"><a href="{{route('equipment')}}">Оснащениие</a></button>
-          </div>
-        </div>
-<div class="a">
+<!--      <div class="slider">-->
+<!--        <div class="slide active">-->
+<!--          <img src="{{ asset('images/photo3.png') }}" />-->
+<!--          <div class="info">-->
+<!--            <p>Принимаем детей и взрослых</p>-->
+<!--            <p>Лечение под наркозом и седацией</p>-->
+<!--            <p>Лечение под микроскопом</p>-->
+<!--            <button class="btn"><a href="{{route('equipment')}}">Оснащение</a></button>-->
+<!--          </div>-->
+<!--        </div>-->
+        <!--<div class="slide">-->
+        <!--  <img src="{{ asset('images/photo2.png') }}" />-->
+        <!--  <div class="info">-->
+        <!--    <p>Принимаем детей и взрослых</p>-->
+        <!--    <p>Лечение под наркозом и седацией</p>-->
+        <!--    <p>Лечение под микроскопом</p>-->
+        <!--    <button class="btn"><a href="{{route('equipment')}}">Оснащение</a></button>-->
+        <!--  </div>-->
+        <!--</div>-->
+        <!--<div class="slide">-->
+        <!--  <img src="{{ asset('images/photo1.png') }}" />-->
+        <!--  <div class="info">-->
+        <!--    <p>Принимаем детей и взрослых</p>-->
+        <!--    <p>Лечение под наркозом и седацией</p>-->
+        <!--    <p>Лечение под микроскопом</p>-->
+        <!--    <button class="btn"><a href="{{route('equipment')}}">Оснащение</a></button>-->
+        <!--  </div>-->
+        <!--</div>-->
+        <!--<div class="slide">-->
+        <!--  <img src="{{ asset('images/photo4.png') }}" />-->
+        <!--  <div class="info">-->
+        <!--    <p>Принимаем детей и взрослых</p>-->
+        <!--    <p>Лечение под наркозом и седацией</p>-->
+        <!--    <p>Лечение под микроскопом</p>-->
+        <!--    <button class="btn"><a href="{{route('equipment')}}">Оснащение</a></button>-->
+        <!--  </div>-->
+        <!--</div>-->
+<!--<div class="a">-->
 
-  <div class="navigation">
-    <i class="fa fa-chevron-left prev-btn"></i>
-    <i class="fa fa-chevron-right next-btn"></i>
-  </div>
-  <div class="navigation-visibility">
-    <div class="slide-icon active"></div>
-    <div class="slide-icon"></div>
-    <div class="slide-icon"></div>
-    <div class="slide-icon"></div>
-  </div>
-</div>
-      </div>
+<!--  <div class="navigation">-->
+    <!--<i class="fa fa-chevron-left prev-btn"></i>-->
+    <!--<i class="fa fa-chevron-right next-btn"></i>-->
+<!--  </div>-->
+  <!--<div class="navigation-visibility">-->
+  <!--  <div class="slide-icon active"></div>-->
+  <!--  <div class="slide-icon"></div>-->
+  <!--  <div class="slide-icon"></div>-->
+  <!--  <div class="slide-icon"></div>-->
+  <!--</div>-->
+<!--</div>-->
+<!--      </div>-->
 
-      <div class="lin"></div>
+      <!--<div class="lin"></div>-->
     </header>    
 @yield('content')
 
 @yield('js')
 
-<div class="footer">
+<div class="footer" id="contact_id">
             <div class="footer_box">
-                <h2 class="footer_titl">Адрес</h2>
-                <a href="#">
+                <h2 class="footer_titl">Контакты</h2>
+                <a>
                     <p>Адрес: 105043, г. Москва, Первомайская ул.,дом</p>
                 </a>
-                <a href="#">
+                <a>
                     <p>58Б, стр.1</p>
                 </a>
-                <a href="#">
+                <a>
                     <p>График работы: ежедневно с 10:00 до 22:00</p>
                 </a>
-                <a href="#">
+                <a href="tel:+74954199511">
                     <p tel="+7 (495) 419-95-11">Телефон: +7 (495) 419-95-11</p>
                 </a>
-                <a href="#">
+                <a href="mailto:stomalina@gmail.com">
                     <p>Email: stomalina@gmail.com</p>
                 </a>
-                <a href="#">
-                    <p>Стоматология Стомалина</p>
-                </a>
-                <a href="#">
-                    <p>ООО"Блеск-Л"</p>
-                </a>
-                <a href="#">
-                    <p>Лицензиа ЛО-77-01-011125</p>
-                </a>
+                <!--<a>-->
+                <!--    <p>Стоматология Стомалина</p>-->
+                <!--</a>-->
+                <!--<a>-->
+                <!--    <p>ООО"Блеск-Л"</p>-->
+                <!--</a>-->
+                <!--<a >-->
+                <!--    <p>Лицензиа ЛО-77-01-011125</p>-->
+                <!--</a>-->
             </div>
             <div class="footer_box footer_box_2">
                 <h2 class="footer_titl">Как добраться</h2>
-                <a href="#">
+                <a>
                     <p>Последный вагон из центра,выход из метро направо.</p>
                 </a>
-                <a href="#">
+                <a >
                     <p>
                         Стоя спиной к метро, повернуть направо и идти вдоль улицы до первого светофора.
                     </p>
                 </a>
-                <a href="#">
+                <a >
                     <p>Диагональю пересечь перекресток.</p>
                 </a>
-                <a href="#">
+                <a>
                     <p>Найти вход с вывеской "Стомалина".</p>
                 </a>
             </div>
@@ -218,7 +218,13 @@
 
 
 
-<div class="footer-div"></div>
+<div class="footer-div">
+    <div>
+         <p style="padding:18px;width:50%;margin: 0 auto">
+        Стоматология Стомалина ООО"Блеск-Л" Лицензиа ЛО-77-01-011125
+    </p>
+    </div>
+</div>
     
 
     <script src="{{ asset('js/script.js') }}"></script>

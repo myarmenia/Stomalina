@@ -237,10 +237,7 @@
         <h2 class="accordion_titl">Общее</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
-               
-                <h1>цена</h1>
-            </div>
+            
             <div class="price">
               <table>
                   <tr>
@@ -272,10 +269,7 @@
  
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+        
             <div class="price">
               <table>
                   <tr>
@@ -318,10 +312,7 @@
         <h2 class="accordion_titl">Гигиена и отбеливание</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+         
             <div class="price">
               <table>
                   <tr>
@@ -377,10 +368,7 @@
         <h2 class="accordion_titl">Терапия</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+           
             <div class="price">
               <table>
                   <tr>
@@ -571,10 +559,7 @@
         <h2 class="accordion_titl">Пародонтология</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+          
             <div class="price">
               <table>
                   <tr>
@@ -646,10 +631,7 @@
  
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+            
             <div class="price">
               <table>
                   <tr>
@@ -969,10 +951,7 @@
         <h2 class="accordion_titl">Ортопедия</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
-                
-                <h1>цена</h1>
-            </div>
+           
             <div class="price">
               <table>
                   <tr>
@@ -1382,10 +1361,10 @@
         <h2 class="accordion_titl">   Детская стоматология</h2>
         <div class="accordion_answer">
                     
-            <div class="work ">
+            <!--<div class="work ">-->
                 
-                <h1>цена</h1>
-            </div>
+            <!--    <h1>цена</h1>-->
+            <!--</div>-->
             <div class="price">
               <table>
                   <tr>
