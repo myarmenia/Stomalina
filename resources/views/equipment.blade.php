@@ -5,9 +5,9 @@
 @endsection
 @section('content')
 <div class="container">
-    <h1 class="title_003" style="margin-top:50px">Оснащениие</h1>
+    <h1 class="title_003" style="margin-top:50px">Оснащение</h1>
     <div class="tools">
-        <div class="tools_box">
+        <div class="tools_box item-1">
             <div class="tools_img">
                 <img src="{{ asset('images/microscope 111.png') }}" >
             </div>
@@ -44,7 +44,7 @@
             <iframe width="100%" height="300" src="https://www.youtube.com/embed/VXmT9Foifow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
-        <div class="tools_box">
+        <div class="tools_box item-1">
             <div class="tools_img">
                 <img src="{{ asset('images/image 10.jpg') }}" >
             </div>
@@ -82,7 +82,7 @@
 клиники.</p>
             </div>
             <div class="tools_img">
-              <img src="{{ asset('images/sirona intego.jpg') }}" >
+              <img src="{{ asset('images/photo1655886044.jpeg') }}" >
           </div>
         </div>
 

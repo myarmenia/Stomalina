@@ -40,12 +40,10 @@
     justify-content: space-between;
 }
 
-.tip_text a {
-    margin: 0 20px;
-    text-decoration: none;
-}
 
-.tip_text a p {
+
+.tip_text  p {
+     margin: 0 20px;
     font-size: 28px;
     color: #8b8b8b;
     line-height: 60px;
@@ -58,16 +56,26 @@
     padding: 50px 0;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+.team a{
+    /*  width: 348px;*/
+    margin-right: 153px;
+    display: contents;
 }
 
 .team_box {
+    
     width: 348px;
     margin-bottom: 60px;
     cursor: pointer;
     padding-bottom: 20px;
     transition: 0.5s;
+        margin-right:20px;
 }
+
+
 
 .team_box:hover {
     box-shadow: 0px 4px 8px 0px rgba(34, 60, 80, 0.2);
@@ -189,6 +197,10 @@
         -webkit-box-orient: vertical;
         /* padding: 0 5px; */
         display: block;
+    }
+    
+    .team{
+        justify-content: center;
     }
 }
 

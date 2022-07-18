@@ -15,7 +15,7 @@ class DefaultController extends Controller
      */
     public function index()
     {
-        $doctors = Doctor::with('education','training')->get();
+        $doctors = Doctor::where('status',1)->with('education','training')->get();
         return view('welcome',compact('doctors'));
     }
 

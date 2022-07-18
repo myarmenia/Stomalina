@@ -4,7 +4,9 @@
   box-sizing: border-box;
   font-family: sans-serif;
 }
-
+.sec{
+    text-align: center !important;
+}
 .cotainer {
   max-width: 1400px;
   width: 100%;
@@ -14,6 +16,8 @@
 
 .text_accord{
     padding: 50px 0;
+        padding-top: 120px;
+
 }
 
 .text_accord p{
@@ -27,7 +31,7 @@
 
 .accordion_item{
    
-    padding: 20px;
+    /*padding: 20px;*/
     margin-bottom: 20px;
     background-color: #4b4b4b;
 }
@@ -38,6 +42,7 @@
     justify-content: center;
     cursor: pointer;
     color: #fff;
+    padding: 20px 0;
 }
 
 
